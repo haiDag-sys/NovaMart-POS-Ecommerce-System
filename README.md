@@ -88,32 +88,6 @@ Cách tổ chức này phù hợp với đồ án học thuật vì:
 - thuận tiện cho việc trình bày nghiệp vụ;
 - dễ mở rộng dần lên kiến trúc rõ ràng hơn trong tương lai.
 
-## Cấu trúc thư mục
-
-nienluan/
-├── admin/ # Giao diện và chức năng quản trị
-├── staff/ # Giao diện và chức năng POS cho nhân viên
-├── app/
-│ ├── Config/ # Cấu hình hệ thống
-│ ├── Controllers/ # Controller xử lý nghiệp vụ
-│ ├── Models/ # Model thao tác dữ liệu
-│ ├── Support/ # Hàm hỗ trợ
-│ └── Views/ # View giao diện
-├── assets/
-│ ├── css/ # CSS
-│ ├── js/ # JavaScript
-│ ├── img/ # Hình ảnh tĩnh
-│ └── uploads/ # Ảnh upload từ hệ thống
-├── includes/ # Thành phần dùng chung (db, header, footer...)
-├── UML/ # File UML / ERD phục vụ báo cáo
-├── index.php # Trang chủ khách hàng
-├── cart.php # Giỏ hàng
-├── detail.php # Chi tiết sản phẩm
-├── profile.php # Hồ sơ khách hàng
-├── register.php # Đăng ký tài khoản
-├── login_member.php # Đăng nhập khách hàng
-└── README.md
-
 ## Yêu cầu hệ thống
 
 - **PHP 8.x** hoặc tương thích với phiên bản trong XAMPP đang dùng.
