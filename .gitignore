@@ -1,0 +1,41 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.tmp
+
+# Logs
+*.log
+
+# Git
+.git/
+
+# Dependency folders
+vendor/
+node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Cache / temporary
+cache/
+tmp/
+/temp/
+
+# Upload files generated while running locally
+assets/uploads/*
+!assets/uploads/.gitkeep
+!assets/uploads/avatars/.gitkeep
+!assets/uploads/categories/.gitkeep
+!assets/uploads/products/.gitkeep
+
+# Backup files
+*.bak

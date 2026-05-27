@@ -1,0 +1,55 @@
+#accountTabs .list-group-item.active {
+    background-color: #fd7e14 !important;
+    border-color: #fd7e14 !important;
+    color: white !important;
+}
+
+#accountTabs .list-group-item:hover:not(.active) {
+    background-color: #fff3cd;
+    color: #fd7e14 !important;
+}
+
+.avatar-wrapper {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.avatar-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.avatar-wrapper:hover .avatar-img {
+    opacity: 0.8;
+}
+
+.avatar-wrapper:hover .avatar-overlay {
+    opacity: 1;
+}
+
+.avatar-overlay .icon-group {
+    transform: scale(0.8);
+    transition: transform 0.3s ease;
+}
+
+.avatar-wrapper:hover .avatar-overlay .icon-group {
+    transform: scale(1);
+}
