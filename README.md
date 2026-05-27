@@ -7,7 +7,6 @@ Website bán hàng và quản lý cửa hàng dành cho mô hình cửa hàng b�
 - [Giới thiệu](#giới-thiệu)
 - [Tính năng nổi bật](#tính-năng-nổi-bật)
 - [Kiến trúc và công nghệ](#kiến-trúc-và-công-nghệ)
-- [Cấu trúc thư mục](#cấu-trúc-thư-mục)
 - [Yêu cầu hệ thống](#yêu-cầu-hệ-thống)
 - [Hướng dẫn cài đặt](#hướng-dẫn-cài-đặt)
 - [Tài khoản mặc định](#tài-khoản-mặc-định)
@@ -27,7 +26,6 @@ NovaMart là hệ thống web phục vụ hai mục tiêu chính:
 
 Dự án phù hợp cho mục đích:
 
-- niên luận / đồ án môn học;
 - mô hình demo quản lý cửa hàng bán lẻ;
 - nền tảng để mở rộng thành hệ thống thương mại điện tử quy mô nhỏ.
 
